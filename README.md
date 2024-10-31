@@ -14,7 +14,7 @@ This repository contains a docker environment for a local [MapService](https://g
 
 - launch server (it automatically load the data from server_data dir)
   ```
-  ./server-launch.sh
+  ./server-launch.sh -d server_data
   ```
 - access [http://localhost:9090/map/editor.jsp](http://localhost:9090/map/editor.jsp)
   - user/pass = editor/editor
@@ -23,7 +23,6 @@ This repository contains a docker environment for a local [MapService](https://g
 ## required software
 
 - docker
-- docker-compose
 
 ## tested environment
 
